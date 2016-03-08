@@ -15,11 +15,11 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li {%if page.url == "/" %} class="active" {%endif%}><a href="index.html">Home</a></li>
-          <li {%if page.url == "/work.html" %} class="active" {%endif%} ><a href="work.html">Work</a></li>
-          <li {%if page.url == "/support.html" %} class="active" {%endif%}><a href="#">Support</a></li>
-          <li {%if page.url == "/service.html" %} class="active" {%endif%}><a href="#">Service</a></li>
-          <li {%if page.url == "/contact.html" %} class="active" {%endif%}><a href="contact.html">Contact</a></li>
+          {% for link in site.nav %}
+            <li {%if page.url == link.url %} class="active" {%endif%}>
+              <a href="{{link.url}}">{{link.title}}</a>
+            </li>
+          {%endfor%}
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
