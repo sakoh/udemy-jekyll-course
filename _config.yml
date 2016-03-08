@@ -10,7 +10,7 @@ title: Great Web Agency
 email: your-email@domain.com
 description: "Great web agency offering high impact yet affordable web development services. From web design to targeted SEO to custom web applications"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
