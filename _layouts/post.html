@@ -8,38 +8,39 @@ layout: default
   <div class="container">
     <div class="col-lg-8">
 
-      <h1>{{page.title}}</h1>
+      <h1>{{ page.title }}</h1>
 
       <p class="lead">
-        by <a href="#">{{page.author}}</a>
+        by <a href="#">{{ page.author }}</a>
       </p>
 
       <p><span class="glyphicon glyphicon-time"></span>
-        Posted on {{page.date | date: "%B %d %Y"}}
+        Posted on {{ page.date | date: "%B %d %Y" }}
       </p>
-      {%if page.image%}
-        <img src="{{page.image}}" alt="{{page.image}}" class="img-responsive">
-      {%endif%}
+
+      {% if page.image %}
+        <img src="{{ page.image }}" alt="{{ page.image }}" class="img-responsive">
+      {% endif %}
 
       {% if page.lead %}
-        <p class="lead">{{page.lead}}</p>
-      {%endif%}
+        <p class="lead">{{ page.lead }}</p>
+      {% endif %}
 
-      {{page.content}}
+      {{ page.content }}
 
       <hr>
 
-      {%if page.previous.url%}
+      {% if page.previous.url %}
         <span class="previous-link pull-right">
-          <a href=""rel="previous" href="{{page.previous.url}}">previous article</a>
+          <a href=""rel="previous" href="{{ page.previous.url }}">previous article</a>
         </span>
-      {%endif%}
+      {% endif %}
 
-      {%if page.next.url%}
+      {% if page.next.url %}
         <span class="next-link pull-right">
-          <a href=""rel="next" href="{{page.next.url}}">next article</a>
+          <a href=""rel="next" href="{{ page.next.url }}">next article</a>
         </span>
-      {%endif%}
+      {% endif %}
 
     </div>
   </div>

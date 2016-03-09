@@ -6,13 +6,13 @@
     <title>
 
       {% if page.title %}
-        {{page.title}}
+        {{ page.title }}
       {% else %}
-        {{site.title}}
+        {{ site.title }}
       {% endif %}
 
     </title>
-    <meta name="description" content="{%if page.description%}{{page.description}}{%else%}{{site.description}}{%endif%}">
+    <meta name="description" content="{%if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
@@ -59,7 +59,7 @@
     </div>
   </header><!-- header close -->
 
-{{content}}
+{{ content }}
 
 <!-- footer Start -->
 {% include footer.html %}
