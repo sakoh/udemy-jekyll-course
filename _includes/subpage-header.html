@@ -17,9 +17,11 @@
 
             {% if page.description %}
               {{page.description}}
-            {% else %}
-              Ipsum Lorem
+            {% else if page.subtitle %}
+              {{page.subtitle}}
             {% endif %}
+
+
 
           </p>
         </div>
