@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<section id="blog">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+
+        {% for post in site.posts %}
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <p class="lead">by {{ post.author }}</p>
+          <p>
+            <span class="glyphicon glyphicon-time"></span> Posted on {{ post.date | "%B %d %Y" }}
+          </p>
+          {% if post.img %}
+            <img src="{{ post.image }}" alt="{{ post.title }}" class="img-responsive">
+          {% endif %}
+          <p>
+            {{ post.excerpt }}
+            <a href="{{ post.url }}" class="btn btn-primary">
+              Read More <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+          </p>
+          <hr>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

@@ -28,3 +28,14 @@ nav:
 
 # Build settings
 markdown: kramdown
+
+defaults:
+
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      image: http://placehold.it/900x300
+      author: Sako Hartounian
+      category: jekyll

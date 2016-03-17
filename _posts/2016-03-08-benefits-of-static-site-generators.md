@@ -1,16 +1,12 @@
 ---
-layout: post
 title: Benefits of static site generators
 date: 2016-03-08 12:00
-author: Sako Hartounian
-image: http://placehold.it/900x300
 lead: "We pay a huge price for the underlying complexity of dynamic code
 running on the server for every request - a price could avoid entirely when this kind of complexity is not
 needed."
 subtitle: "Create an ultra fast secure blog that is easy to maintain and easy to scale"
 ---
 
-# Dynamic Problems Link
 When I built my first dynamic website more than 15 years ago, I was following the original LAMP-stack tutorials from the MySQL documentation. When I realized that all of this stuff was going on every time someone visited a website that was built like this, it blew my mind!
 A web server would load my code into a PHP interpreter, on the fly, and then open connections to a database, sending queries back and forth, using the data in templates and stitching together strings of text into an HTML document, tailor-made for the visitor at that moment. Amazing!
 It was, admittedly, a bit less amazing when I visited the website a few years later and found the whole web page replaced with a message from a hacker who pointed out the security flaws in the configuration and was at least generous enough just to deface the website, rather than use it as a vehicle to spread malware.
