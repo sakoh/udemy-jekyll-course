@@ -1,13 +1,9 @@
 ---
-layout: post
 title: Making it easier to contribute to Jekyll
 author: Ben Balter
 date: 2016-03-08 12:00
 lead: >
   If you’ve been looking to get involved with the Jekyll community, but didn’t know, we’ve recently made it easier to contribute to Jekyll
-categories:
-  - jekyll
-image: http://placehold.it/900x300
 ---
 
 Jekyll is an open source project, built one contribution at a time by community members just like you. These community contributions can come in many forms beyond just writing code, from reporting an issue or suggesting a new feature to improving documentation or providing feedback on proposed changes.

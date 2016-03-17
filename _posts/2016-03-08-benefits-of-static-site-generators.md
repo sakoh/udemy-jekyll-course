@@ -1,15 +1,10 @@
 ---
-layout: post
 title: Benefits of static site generators
 date: 2016-03-08 12:00
-author: Sako Hartounian
-image: http://placehold.it/900x300
 lead: "We pay a huge price for the underlying complexity of dynamic code
 running on the server for every request - a price could avoid entirely when this kind of complexity is not
 needed."
 subtitle: "Create an ultra fast secure blog that is easy to maintain and easy to scale"
-categories:
-  - jekyll
 ---
 
 When I built my first dynamic website more than 15 years ago, I was following the original LAMP-stack tutorials from the MySQL documentation. When I realized that all of this stuff was going on every time someone visited a website that was built like this, it blew my mind!

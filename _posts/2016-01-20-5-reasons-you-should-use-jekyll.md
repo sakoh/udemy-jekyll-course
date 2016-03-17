@@ -1,13 +1,8 @@
 ---
-layout: post
 title: 5 reasons you should use jekyll
 date: 2016-03-08 12:00
-author: Sako Hartounian
-image: http://placehold.it/900x300
 lead: "You understand exactly what's happening: HTML + CSS/SASS + Markdown get fed in and compiled, and those components themselves are easy to manipulate with minimal new learning. That gives you power and confidence."
 subtitle: "Create an ultra fast secure blog that is easy to maintain and easy to scale"
-categories:
-  - jekyll
 ---
 
 I recently reached out to people that I consider to be influencers in the Jekyll static site generator community. These are users passionate enough to contribute code snippets, blog about using Jekyll and open source themes to the community. They aren't core contributing team members, but rather regular users like you and I.
