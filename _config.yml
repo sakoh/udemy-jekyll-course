@@ -16,12 +16,13 @@ github_username:  jekyll
 nav:
   - title: Home
     url: /
+
   - title: Work
     url: /work.html
-  - title: Support
-    url: /#
-  - title: Service
-    url: /#
+
+  - title: Blog
+    url: /blog
+
   - title: Contact
     url: /contact.html
 
@@ -39,3 +40,4 @@ defaults:
       image: http://placehold.it/900x300
       author: Sako Hartounian
       category: jekyll
+      comments: true

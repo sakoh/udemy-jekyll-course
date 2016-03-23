@@ -42,7 +42,9 @@ layout: default
             <a href=""rel="next" href="{{page.next.url}}">next article</a>
           </span>
         {% endif %}
-
+        {% if page.comments %}
+          {% include comments.html %}
+        {% endif %}
       </div>
       <div class="col-lg-4">
         <div class="well">
