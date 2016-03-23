@@ -17,7 +17,7 @@
         <ul class="nav navbar-nav navbar-right">
           {% for link in site.nav %}
             <li {% if page.url == link.url %} class="active" {% endif %}>
-              <a href="{{ link.url }}">{{ link.title }}</a>
+              <a href="{{ link.url | preprend: site.url }}">{{ link.title }}</a>
             </li>
           {% endfor %}
         </ul>
